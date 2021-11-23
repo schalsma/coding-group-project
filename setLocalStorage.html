@@ -12,14 +12,6 @@
     <input type="text" id="message_txt">
     <button id="setData_btn">Send</button>
 
-    <script>
-        const setData_btn = <document.querySelector("#setData_btn");
-        const message_txt = <document.querySelector("#message_txt");
-
-        setData_btn.addEventListener("click", event => {
-            localStorage.setItem("myMessage", message_txt.value);
-            location.href = "getLocalStorage.html";
-        })
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
