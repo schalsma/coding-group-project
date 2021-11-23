@@ -11,5 +11,5 @@ const message_txt = <document.querySelector("#message_txt");
 
     setData_btn.addEventListener("click", event => {
         localStorage.setItem("myMessage", message_txt.value);
-        location.href = "getLocalStorage.html";
+        location.href = "getLms.html";
     })   
