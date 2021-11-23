@@ -1,12 +1,12 @@
-const localStorageMessage = localStorage.getItem("myMessage");
+const localStorageAssignment = localStorage.getItem("myAssignment");
 
-    if(localStorageMessage == "apple"){
+    if(localStorageAssignment == "apple"){
         console.log("You may enter");
     }else{
         console.log("Goodbye")
     }
 
-const setData_btn = <document.querySelector("#setData_btn");
+const letData_btn = <document.querySelector("#setData_btn");
 const assignment_txt = <document.querySelector("#assignment_txt");
 
     setData_btn.addEventListener("click", event => {
