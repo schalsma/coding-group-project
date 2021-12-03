@@ -1,12 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Source+Sans+Pro:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+
+body {
+  font-family: "Roboto", "Source+Sans+Pro";
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #ffffff;
+}
+
 footer {
+  background-color: #ffffff;
   display: flex;
   flex-wrap: 
 }
 
-buttonFooter {
+.buttonFooter {
 background-color: cadetblue;
 color: black;
 padding: 10px;
 margin: 5px;
+}
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+;
+}
 
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FFffff;
+}
+
+/* selected link */
+a:active {
+  color: black;
 }
