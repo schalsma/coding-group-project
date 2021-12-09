@@ -1,1 +1,0 @@
-alert("Tip of the day");
