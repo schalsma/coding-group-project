@@ -14,3 +14,9 @@ const assignment_txt = <document.querySelector("#assignment_txt");
         localStorage.setItem("myAssignment", assignment_txt.value);
         location.href = "getLms.html";
     })   
+
+/* popup */
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
