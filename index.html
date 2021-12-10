@@ -16,15 +16,20 @@
 
        </div>
   
-    <button><a href="login.html"> Log out</a> </button>
+       <a href="#" onclick="signOut();">Sign out</a>
+       <script>
+         function signOut() {
+           var auth2 = gapi.auth2.getAuthInstance();
+           auth2.signOut().then(function () {
+             console.log('User signed out.');
+           });
+         }
+       </script>
     </header>
     <main>
-       <div class="card"><iframe src="assignments.html" title="To Do"></iframe>
-           <a href="assignments.html"></a>
-           
-       </div>
-       <div class="card">Today's Schedule
-           <a href="calendar.html"></a>
+       <div class="card"><a href="assignments.html">To Do</a></div>
+       <div class="card">
+           <a href="calendar.html">Today's Schedule</a>
        </div>
        <div class="popup" onclick="myFunction()">Click me
             <span class="popuptext" id="myPopup">Tip of the Day</span>
