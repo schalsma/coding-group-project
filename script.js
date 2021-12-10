@@ -13,7 +13,10 @@ const assignment_txt = <document.querySelector("#assignment_txt");
     setData_btn.addEventListener("click", event => {
         localStorage.setItem("myAssignment", assignment_txt.value);
         location.href = "getLms.html";
-    })   
+    }) 
+    
+$(‘#[Todo]’).load(‘assignments.html #[homework]’);
+
 
 /* popup */
 function myFunction() {
