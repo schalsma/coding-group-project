@@ -11,12 +11,21 @@
 <body> 
     <header>
         <nav>
-            <h1 class="logo"><a href="index.html">Logo</a></h1>
-            <h2>Calendar</h2>
-            <button><a href="login.html">Log Out</a></button>
+            <div class="logo"><a href="index.html">Logo</a></div>
+            <div>Calendar</div>
+            <button><a href="login.html">Sign Out</a></button>
+            <meta charset="utf-8" />
         </nav>
     </header>
-    
+    <main>
+        <p>Google Calendar API Quickstart</p>
+
+        <!--Add buttons to initiate auth sequence and sign out-->
+        <button id="authorize_button" style="display: none;">Authorize</button>
+        <button id="signout_button" style="display: none;">Sign Out</button>
+
+        <pre id="content" style="white-space: pre-wrap;"></pre>
+    </main>
     <footer>
         <button class="buttonFooter"><a href="calendar.html">Schedule</a></button>
         <button class="buttonFooter"><a href="assignments.html">Assignments</a></button>
@@ -24,5 +33,6 @@
         <button class="buttonFooter"><a href="help.html">Help</a></button>
     </footer>
     <script src="script.js"></script>
+    <script src="calendar.js"></script>    
 </body>
 </html>
