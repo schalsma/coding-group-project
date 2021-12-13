@@ -19,10 +19,10 @@ $(‘#Todo’).load(‘assignments.html #homework’);
 
 
 /* popup */
-function myFunction() {
-    var popup = document.getElementById("myPopup");
-    popup.classList.toggle("show");
-}
+const openModalBtn = document.querySelector(#openModalBtn);
+openModalBtn.addEventListener("click",event =>{
+    
+})
 
 // Google Stuff
 function onSignIn(googleUser) {
