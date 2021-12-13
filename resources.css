@@ -1,3 +1,34 @@
+img {
+    width: 25%;
+    height: 75%;
+    display: inline-block;
+  }
+main {
+    justify-content: flex-start;
+}
 main ul {
     list-style: none;
 }
+main ul li{
+    margin-bottom: 40px;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: underline;
+  ;
+  }
+  /* visited link */
+  a:visited {
+    color: black;
+    text-decoration: underline;
+  }
+  /* mouse over link */
+  a:hover {
+    color: #E61A5A;
+  }
+  /* selected link */
+  a:active {
+    color: #FDC309;
+  }
