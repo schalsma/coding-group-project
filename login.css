@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-flow: column;
+    font-weight: bold;
+    
+}
+
+.LoginCard {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+    background-color: lightgrey;
+    border:solid;
+    border-color: #4B4998;
+    border-width:thick;
+    border-radius: 100px;
+  
+  }
