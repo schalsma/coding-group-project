@@ -5,15 +5,23 @@ body {
     
 }
 
+img {
+    width: 15%;
+    height:15%;
+    display: inline-block;
+}
+
 .LoginCard {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
-    padding: 50px;
+    justify-self: center;
+    padding: 10px;
+    width: fit-content;
     background-color: lightgrey;
     border:solid;
     border-color: #4B4998;
     border-width:thick;
-    border-radius: 100px;
+    border-radius: 50px;
   
   }
