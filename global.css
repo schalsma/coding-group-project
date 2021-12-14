@@ -12,16 +12,20 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px, 10px, 0px, 0px;
+  padding: 0px, 0px, 0px, 0px;
+}
+header h1 {
+  margin: 0px 0px 0px 250px;
 }
 .logo {
-    width: 25%;
-    height: 25%;
+    width: 100px;
+    height: 100px;
     display: inline-block;
     padding: 0px;
+    margin: 0px;
 }
 main {
-  padding: 0px, 10px, 0px, 0px;
+  padding: 0px, 0px, 0px, 0px;
 }
 .card {
   margin: 10px;
