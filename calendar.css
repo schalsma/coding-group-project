@@ -3,3 +3,12 @@ img {
     height: 75%;
     display: inline-block;
   }
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  margin: 20px;
+}
