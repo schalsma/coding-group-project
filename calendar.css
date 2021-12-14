@@ -10,5 +10,13 @@ main {
 }
 
 iframe {
-  margin: 20px;
+  margin: 5px;
+}
+
+#addEvent {
+  background-color: #E61A5A;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
 }
