@@ -35,7 +35,6 @@ footer {
   background-color: #ffffff;
   display: flex;
   justify-content: center; 
-  padding: 0px, 10px, 0px, 0px;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -78,4 +77,24 @@ button a:hover {
 /* selected link */
 button a:active {
   color: black;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: underline;
+;
+}
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: underline;
+}
+/* mouse over link */
+a:hover {
+  color: #E61A5A;
+}
+/* selected link */
+a:active {
+  color: #FDC309;
 }
