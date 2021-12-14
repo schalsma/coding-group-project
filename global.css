@@ -1,18 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Source+Sans+Pro:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 
-body {
+html, body {
   font-family: "Roboto", "Source+Sans+Pro";
   background-color: #f9f9f9;
+  position: relative;
+  min-height: 100vh;
+  margin: 0px, 0px, 0px, 0px;
 }
-
 header {
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0px, 10px, 0px, 0px;
+}
+.logo {
+    width: 25%;
+    height: 25%;
+    display: inline-block;
+    padding: 0px;
 }
 main {
-  display: flex;
-  justify-content: space-evenly;
+  padding: 0px, 10px, 0px, 0px;
 }
 .card {
   margin: 10px;
@@ -22,40 +31,70 @@ main {
   border-radius: 10px;
 
 }
-
 footer {
   background-color: #ffffff;
   display: flex;
-  justify-content: space-between; 
-  align-items:stretch
-  
+  justify-content: center; 
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .buttonFooter {
-background-color: cadetblue;
-color: black;
-padding: 10px;
-margin: 5px;
+  background-color: #4B4998;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
 }
+
+button.signout {
+  background-color: #4B4998;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+}
+
 /* unvisited link */
-a:link {
-  color: black;
+button a:link {
+  color: white;
   text-decoration: none;
 ;
 }
 
 /* visited link */
-a:visited {
-  color: black;
+button a:visited {
+  color: white;
   text-decoration: none;
 }
 
 /* mouse over link */
-a:hover {
+button a:hover {
   color: #FFffff;
 }
 
 /* selected link */
-a:active {
+button a:active {
   color: black;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: underline;
+;
+}
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: underline;
+}
+/* mouse over link */
+a:hover {
+  color: #E61A5A;
+}
+/* selected link */
+a:active {
+  color: #FDC309;
 }

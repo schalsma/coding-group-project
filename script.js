@@ -15,9 +15,6 @@ const assignment_txt = <document.querySelector("#assignment_txt");
         location.href = "getLms.html";
     }) 
     
-$(‘#Todo’).load(‘assignments.html #homework’);
-
-
 /* popup */
 const openModalBtn = document.querySelector(#openModalBtn);
 openModalBtn.addEventListener("click",event =>{
@@ -32,3 +29,11 @@ function onSignIn(googleUser) {
     console.log('Image URL: ' + profile.getImageUrl());
     console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
   }
+
+function init() {
+    gapi.load('auth2', function() {
+            'ux_mode': 'redirect';
+            'redirect_uri': 'index.html';
+            'onsuccess': onSuccess,
+            'onfailure': onFailure
+    });

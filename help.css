@@ -1,0 +1,13 @@
+img {
+    width: 25%;
+    height: 75%;
+    display: inline-block;
+  }
+
+main{
+    max-width: 1800px;
+}
+
+h2 {
+    color: #4B4998;
+}
