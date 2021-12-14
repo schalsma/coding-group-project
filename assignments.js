@@ -1,4 +1,4 @@
-let Level = document.querySelector(".Level");
+let Level = document.querySelector("#Level");
 
 Level.addEventListener("change", event => {
     let selectedValue = event.currentTarget.value;

@@ -1,8 +1,8 @@
-.Level {
+#Level {
 color: black;
 }
 
 /*unless it has a class that says otherwise */
-.Level.special{
+#Level.special{
     color: red;
 }
