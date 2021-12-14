@@ -15,9 +15,6 @@ const assignment_txt = <document.querySelector("#assignment_txt");
         location.href = "getLms.html";
     }) 
     
-$(‘#Todo’).load(‘assignments.html #homework’);
-
-
 /* popup */
 const openModalBtn = document.querySelector(#openModalBtn);
 openModalBtn.addEventListener("click",event =>{

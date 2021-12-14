@@ -1,4 +1,3 @@
-type="text/javascript">
 // Client ID and API key from the Developer Console
 var CLIENT_ID = '903874887931-depq8q79cg0n8gk6sajkdtn2qee3m9hk.apps.googleusercontent.com';
 var API_KEY = 'AIzaSyCE-mX4Xwe_E6cXd5c_17IlRcFJlXjYPng';
@@ -116,6 +115,6 @@ function listUpcomingEvents() {
   });
 }
 
-async defer src="https://apis.google.com/js/api.js"
-onload="this.onload=function(){};handleClientLoad()"
-onreadystatechange="if (this.readyState === 'complete') this.onload()">
+// async defer src="https://apis.google.com/js/api.js"
+// onload="this.onload=function(){};handleClientLoad()"
+// onreadystatechange="if (this.readyState === 'complete') this.onload()">
