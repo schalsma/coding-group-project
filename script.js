@@ -32,15 +32,8 @@ function onSignIn(googleUser) {
 
 function init() {
     gapi.load('auth2', function() {
-        gapi.signin2.render('my-signin2', {
-            'scope': 'profile email',
-            'width': 240,
-            'height': 50,
-            'longtitle': true,
-            'theme': 'dark',
-            'ux_mode': 'redirect',
-            'redirect_uri': 'index.html',
+            'ux_mode': 'redirect';
+            'redirect_uri': 'index.html';
             'onsuccess': onSuccess,
             'onfailure': onFailure
-          });
     });
