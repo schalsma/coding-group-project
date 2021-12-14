@@ -4,9 +4,9 @@ Level.addEventListener("change", event => {
     let selectedValue = event.currentTarget.value;
 
     if(selectedValue == "difficult"){
-        Level.classList.add("special");
+        Level.classList.add("#Level.special");
     }else{
-        Level.classList.remove("special");
+        Level.classList.remove("#Level.special");
     }
 })
     
