@@ -39,6 +39,6 @@ function onSignIn(googleUser) {
             // The user is now signed in on the server too
             // and the user should now have a session cookie
             // for the whole site. 
-            document.location.href = '/dashboard/' + user.username
+            document.location.href = '/index.html/' + user.username
         })
   }
