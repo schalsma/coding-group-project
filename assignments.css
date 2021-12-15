@@ -1,11 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .Level {
+=======
+#Level {
+>>>>>>> cfe5e57bc7b764aec017d2e8b7da57e49c09ff90
 color: black;
 }
 
 /*unless it has a class that says otherwise */
-.Level.special{
+#Level.special{
     color: red;
 }
 >>>>>>> 18d17ed07710bbe76bc3d5b8403eb14b9b96d0e6
