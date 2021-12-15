@@ -31,13 +31,4 @@ function onSignIn(googleUser) {
     console.log('Family Name: ' + profile.getFamilyName());
     console.log("Image URL: " + profile.getImageUrl());
     console.log("Email: " + profile.getEmail());
-
-    // The ID token you need to pass to your backend:
-    var id_token = googleUser.getAuthResponse().id_token;
-    postAJAX('/server/sign-in', {id_token: id_token});
-        .then(function(user) {
-            // The user is now signed in on the server too
-            // and the user should now have a session cookie
-            // for the whole site. 
-            document.location.href = '/index.html/' + user.username
-        })
+    redirect_uri = "https://schalsma.github.io/coding-group-project/index.html";
