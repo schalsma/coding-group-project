@@ -27,12 +27,13 @@ header h1 {
 }
 main {
   display: flex;
-
+  flex-wrap: wrap;
   padding: 0px, 0px, 0px, 0px;
 }
 .card {
   display: flex;
- flex-direction: wrap;
+  display: table;
+  justify-content: flex-start;
   list-style-type: none;
   margin: 10px;
   padding: 50px;
