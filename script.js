@@ -41,4 +41,3 @@ function onSignIn(googleUser) {
             // for the whole site. 
             document.location.href = '/index.html/' + user.username
         })
-  }

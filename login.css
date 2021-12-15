@@ -11,9 +11,10 @@ main {
 }
 
 img {
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     display: inline-block;
+    margin: 75px 0px 0px 0px;
 }
 
 .LoginCard {
@@ -28,5 +29,6 @@ img {
     border-color: #4B4998;
     border-width:thick;
     border-radius: 50px;
+    margin: 0px 0px 50px 0px;
   
   }

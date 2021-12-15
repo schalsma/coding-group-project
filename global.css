@@ -2,21 +2,24 @@
 
 html, body {
   font-family: "Roboto", "Source+Sans+Pro";
+  background-image: url("background_img_school.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #f9f9f9;
   position: relative;
   min-height: 100vh;
   margin: 0px, 0px, 0px, 0px;
+  padding: 0px, 0px, 0px, 0px;
 
 }
+
 header {
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px, 0px, 0px, 0px;
-}
-header h1 {
-  margin: 0px 0px 0px 250px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px, 5px, 0px, 5px;
 }
 .logo {
     width: 100px;
@@ -52,6 +55,8 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  padding: 0px, 0px, 0px, 0px;
+  margin: 0px, 0px, 0px, 0px;
 }
 
 .buttonFooter {
@@ -60,6 +65,7 @@ footer {
   padding: 10px;
   margin: 5px;
   border-radius: 15px;
+  width: 100px;
 }
 
 button.signout {
