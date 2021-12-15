@@ -6,6 +6,7 @@ html, body {
   position: relative;
   min-height: 100vh;
   margin: 0px, 0px, 0px, 0px;
+
 }
 header {
   background-color: #ffffff;
@@ -25,13 +26,21 @@ header h1 {
     margin: 0px;
 }
 main {
+  display: flex;
+
   padding: 0px, 0px, 0px, 0px;
 }
 .card {
+  display: flex;
+ flex-direction: wrap;
+  list-style-type: none;
   margin: 10px;
   padding: 50px;
   border:solid;
-  border-color: black;
+  font-weight: 700;
+  background-color: lightgrey;
+  border-width: thick;
+  border-color: #FDC309;
   border-radius: 10px;
 
 }
