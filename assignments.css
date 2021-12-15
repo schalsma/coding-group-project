@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+=======
+.Level {
+color: black;
+}
+
+/*unless it has a class that says otherwise */
+.Level.special{
+    color: red;
+}
+>>>>>>> 18d17ed07710bbe76bc3d5b8403eb14b9b96d0e6

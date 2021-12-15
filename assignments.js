@@ -1,6 +1,12 @@
-difficult.getElementById('difficult').onclick = changeColor;
-function changeColor() {
-    document.body.style.color = "red";
-    return false;
+let Level = document.querySelector(".Level");
+
+Level.addEventListener("change", event => {
+    let selectedValue = event.currentTarget.value;
+
+    if(selectedValue == "difficult"){
+        Level.classList.add("special");
+    }else{
+        Level.classList.remove("special");
+    }
+})
     
-}
