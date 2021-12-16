@@ -1,12 +1,21 @@
-let Level = document.querySelector("#Level");
+let Levels = document.querySelectorAll(".Level");
 
-Level.addEventListener("change", event => {
-    let selectedValue = event.currentTarget.value;
+    for(let x=0; x <Levels.length; x++){
+        Levels[x].addEventListener("change", event => {
+            let selectedValue = event.currentTarget.value;
+        
+            if(selectedValue == "Difficult"){
+                event.currentTarget.classList.add("special");
+            }else{
+                event.currentTarget.classList.remove("special");
+            }
+        }) 
 
-    if(selectedValue == "Difficult"){
-        Level.classList.add("#Level.special");
-    }else{
-        Level.classList.remove("#Level.special");
     }
-})
+
+
+   
+
+
+
     
