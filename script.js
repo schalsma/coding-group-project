@@ -16,7 +16,7 @@ const assignment_txt = <document.querySelector("#assignment_txt");
     }) 
     
 /* popup */
-const openModalBtn = document.querySelector(#"openModalBtn");
+const openModalBtn = document.querySelector("#openModalBtn");
 openModalBtn.addEventListener("click",event =>{
     
 })
