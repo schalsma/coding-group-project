@@ -36,21 +36,7 @@ main {
   flex-wrap: wrap;
   padding: 0px, 0px, 0px, 0px;
 }
-.card {
-  display: flex;
-  display: table;
-  justify-content: flex-start;
-  list-style-type: none;
-  margin: 10px;
-  padding: 50px;
-  border:dashed;
-  font-weight: 700;
-  background-color: rgb(241, 237, 237);
-  border-width: thick;
-  border-color: #FDC309;
-  border-radius: 10px;
 
-}
 footer {
   background-color: #ffffff;
   display: flex;
